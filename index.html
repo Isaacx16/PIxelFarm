@@ -1,1 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pixel Farm (Stardew-like)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="title">🌱 Pixel Farm</div>
+      <div class="hud">
+        <div class="pill">🪙 <span id="coins">0</span></div>
+        <div class="pill">🥕 <span id="carrot">0</span></div>
+        <div class="pill small">Guardado: <span id="saveStatus">OK</span></div>
+      </div>
+    </header>
+
+    <canvas id="game" width="1280" height="720"></canvas>
+
+    <footer class="foot">
+      WASD/Flechas para moverte • Click en tierra arada para sembrar/cosechar • Auto-guardado
+      <button id="resetBtn" class="reset">Reset</button>
+    </footer>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
 
